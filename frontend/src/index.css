@@ -1,6 +1,6 @@
 :root {
   --blue: #1e4ae9;
-  --white: #fafafa;
+  --white: #f5fafc;
   --primary-text-color: #09132c;
   --primary-color: #128c7e;
 
@@ -26,5 +26,7 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   color: var(--primary-text-color);
-  background-color: #fafafa;
+}
+body {
+  background-color: #f5fafc;
 }

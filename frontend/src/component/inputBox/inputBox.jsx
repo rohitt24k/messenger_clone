@@ -8,6 +8,7 @@ function InputBox({
   placeholder,
   value,
   handleChange,
+  style,
 }) {
   return (
     <div className={styles.inputContainer}>
@@ -21,6 +22,7 @@ function InputBox({
           onChange={(e) => {
             handleChange(e, name);
           }}
+          style={style}
         />
       </label>
     </div>

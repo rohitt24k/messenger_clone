@@ -1,0 +1,32 @@
+.conversationContainer {
+  display: flex;
+  cursor: pointer;
+  padding: 0.8rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.conversationContainer:hover {
+  background-color: #d1e4e8;
+}
+
+.userAvatar {
+  display: block;
+  height: 3rem;
+  width: 3rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.name {
+  padding-top: 0.3rem;
+  padding-left: 0.5rem;
+  text-transform: capitalize;
+  font-size: var(--text-medium-large);
+}
+
+.time {
+  padding-top: 0.5rem;
+  font-size: var(--text-small);
+  flex: 1;
+  text-align: right;
+}

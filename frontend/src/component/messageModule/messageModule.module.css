@@ -1,0 +1,64 @@
+.messageModuleContainer {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.messageModuleContainer header {
+  display: flex;
+  padding: 1rem 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f7f7fc;
+}
+
+.messageModuleContainer header div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.messageModuleContainer header div span {
+  font-size: var(--text-large);
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.userAvatar {
+  height: 3rem;
+  width: 3rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.messageModuleContainer main {
+  background-color: #fafafa;
+  padding: 0rem 3.5rem 0.75rem 3.5rem;
+  flex: 1;
+  position: relative;
+  overflow: auto;
+}
+
+.messageModuleContainer main::-webkit-scrollbar {
+  width: 5px;
+}
+
+.messageModuleContainer main::-webkit-scrollbar-thumb {
+  background-color: #b0c5c2;
+  border-radius: 5px;
+}
+
+.messageModuleContainer footer {
+  padding: 1rem 3.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.messageModuleContainer footer .inputBox {
+  flex: 1;
+}
+.messageModuleContainer footer .button {
+  /* flex: 1; */
+}

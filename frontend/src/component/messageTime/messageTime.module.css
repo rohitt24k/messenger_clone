@@ -1,0 +1,11 @@
+.messageTimeContainer {
+  font-size: var(--text-medium);
+  font-weight: 400;
+  color: #536d7d;
+  margin-top: 1rem;
+  width: fit-content;
+}
+
+.own {
+  margin-left: auto;
+}
